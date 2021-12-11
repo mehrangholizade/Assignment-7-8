@@ -1,0 +1,389 @@
+body
+{
+    margin: 0px;
+}
+#navbar
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height:6%; 
+    background-color: black;
+    align-items: center;
+   
+}
+#menu
+{
+    position: relative;
+    list-style-type: none;
+    left: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    
+}
+li img
+{
+    width: 70px;
+    height: 30px;
+    border-style: none;
+    background-image: black;
+    padding: 0px;
+}
+#menu li #marvel_logo
+{
+    padding:0px
+}
+#menu li
+{
+    display: block;
+}
+#menu li a
+{
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0px;
+}
+#searchbox
+{
+    position: absolute;
+    width: 15%;
+    right: 10px;
+    padding:3px;
+    border-radius:400px;
+    transition: width 2s;
+}
+#searchbox:focus
+{
+width: 95%;
+}
+.submenu
+{
+
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+    margin-top: 10px;
+}
+.submenu li a
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+#menu li:hover
+{
+    background-color: darkgray;
+}
+#menu li a:hover
+{
+    background-color: darkgray;
+}
+#menu li:hover .submenu
+{
+    display: block;
+}
+
+.all-characters
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.spider-man
+{
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 40px;
+
+}
+.characters-pic
+{
+    width: 100%;
+}
+.characters-pic img{
+    border-radius: 100%;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkred;
+    transition: 4s;
+}
+.characters-pic img:hover
+{
+    transform: rotateY(360deg);
+}
+.characters-pic h3
+{
+   text-align: center;
+}
+.all-description
+{
+    background-color:darkred;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.spider-man-collection
+{
+    width: 25%;
+    padding: 30px 10px 30px 10px ;
+    box-sizing: border-box;  
+}
+.movie-pic
+{
+    background-color: white;
+    width:100%;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 7px darkred;
+}
+#movie-des .movie-pic
+{
+    background-color: transparent;
+    box-shadow: none;
+    border-style: none;
+    color: white;
+
+}
+.movie-pic img
+{
+    width: 100%;
+    height: 50%;
+}
+.movie-pic h2,h3,h4
+{
+    width: 100%;
+    padding-left:10px;
+}
+.all-prices
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.prices-up
+{
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.prices-down
+{
+    width: 100%;
+    border-style: solid;
+    border-width: 0.3px;
+    border-color: gainsboro;
+    transition: 3s;
+}
+.prices-down:hover
+{
+    box-shadow: 0px 0px 10px 10px darkblue;
+    opacity: 0.6;
+}
+.prices-down h2
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(197, 197, 197);
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.prices-down h4
+{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: darkgray;
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#purchace
+{
+    background-color: darkgray;
+    padding-bottom: 15px;
+    padding-top: 15px;   
+}
+.prices-down a
+{
+    padding: 10px 15px 10px 15px;
+    background-color:gray;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+.all-contacts
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: darkgray;
+    margin-top: 60px;
+    padding-bottom: 15px;
+}
+.first-contact
+{
+   padding: 15px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+   
+}
+.sec-contact
+{
+    background-color: rgb(156, 151, 151);
+    width: 100%;
+}
+.sec-contact input
+{
+    
+    margin: 15px;
+    margin-top: 0px;
+    display: block;
+    border-style: none;
+    border-bottom-style: solid;
+    border-width: 1px;
+    width: 90%;
+    padding: 5px;
+}
+.sec-contact button
+{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    
+}
+#f-c
+{
+    width:100%;
+}
+#n-c
+{
+     width: 60%;
+}
+#f-c-e
+{
+    background-color: transparent;
+      padding-left: 5%;
+}
+#n-c-e
+{
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 7px darkgray;
+    margin-left: 340px;
+}
+#f-c-e h3,h4,h5
+{
+     margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.last-pic img
+{
+    width: 100%;
+    height: 100%;
+}
+.links
+{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height:40% ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links img
+{
+    background-color:skyblue;
+    padding:10px;
+    width: 40px;
+    height: 35px;
+    border-radius: 3px;
+}
+@media screen and (max-width: 800px) {
+    .spider-man
+    {
+        width: 60%;
+    }
+    .spider-man-collection{
+        width: 50%;
+    }
+    .spider-man-pic
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .spider-man{
+        width: 60%;
+    }
+    .spider-man-collection{
+        width: 50%;
+    }
+    .prices-up{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .spider-man{
+        width: 100%;
+    }
+    .spider-man-collection
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: auto;
+        padding-bottom: 15px;
+    }
+    .about-game-pic img{
+        height: 70%;
+    }
+  
+    .prices-up
+    {
+        width: 100%;
+    }
+   .links img
+   {
+        width: 15px;
+        height: 10px;
+    }
+    .all-contacts #f-c
+    {
+        width: 100%;
+    }
+    .all-contacts #n-c
+    {
+        width: 100%;
+    }
+    #n-c-e
+    {
+        margin-left:0px;
+    }
+    
+}
